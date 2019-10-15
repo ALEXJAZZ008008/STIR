@@ -104,8 +104,8 @@ ProjMatrixByBinUsingRayTracing::set_defaults()
   this->restrict_to_cylindrical_FOV = true;
   this->num_tangential_LORs = 1;
   this->use_actual_detector_boundaries = false;
-  this->do_symmetry_90degrees_min_phi = true;
-  this->do_symmetry_180degrees_min_phi = true;
+  this->do_symmetry_90degrees_min_phi = false;
+  this->do_symmetry_180degrees_min_phi = false;
   this->do_symmetry_swap_segment = true;
   this->do_symmetry_swap_s = true;
   this->do_symmetry_shift_z = true;
